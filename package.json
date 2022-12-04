@@ -1,19 +1,25 @@
 {
-    "name": "develop",
+    "name": "Employee-Tracker",
     "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "directories": {
-      "lib": "Library",
-      "test": "Tests"
-    },
+    "description": "see readme",
+    "main": "index.js",
     "scripts": {
-      "test": "jest"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CNRBanks/Employee-Tracker-CNR"
+    },
+    "keywords": [],
     "author": "Connor Banks",
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CNRBanks/Employee-Tracker-CNR/issues"
+    },
+    "homepage": "https://github.com/CNRBanks/Employee-Tracker-CNR",
     "dependencies": {
-      "inquirer": "^8.2.4",
-      "jest": "^29.0.1"
+        "console.table": "^0.10.0",
+        "inquirer": "^8.2.4",
+        "mysql2": "^2.3.3"
     }
-  }
+}
